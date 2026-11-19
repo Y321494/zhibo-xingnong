@@ -7,7 +7,7 @@
  * 后端负责真正的投递，收件人应写在服务端环境变量里；前端不要放 SMTP 密码或 API Key。 */
 window.APP_CONFIG = {
   recipients: ['2360618616@qq.com'],
-  submitEndpoint: '/api/send',
+  submitEndpoint: 'https://1536745519-f48wlsme6t.ap-guangzhou.tencentscf.com',
   autoSubmit: true,
   allowDemo: false,
   draftStorage: 'session',
