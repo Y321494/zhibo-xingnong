@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>三创赛 · 智播兴农 · 团队招募</title>
+<meta name="description" content="三创赛参赛团队「智播兴农」组队招募：项目介绍、方向选择题、自我介绍、简答题，5 分钟填完。" />
+<meta name="theme-color" content="#1f7a4d" />
+<link rel="stylesheet" href="assets/styles.css?v=1" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="badge">三创赛</span>
+    <div class="brand-text">
+      <h1>智播兴农</h1>
+      <p class="sub">团队招募 <span class="dot">·</span> <span id="team-school"></span> <span class="dot">·</span> 常规赛 · 乡村振兴</p>
+    </div>
+  </div>
+  <p class="meta" id="stage-meta"></p>
+</header>
+
+<main>
+  <nav class="stepper" aria-label="填写步骤">
+    <ol>
+      <li data-step="1" class="active"><span>01</span>项目介绍</li>
+      <li data-step="2"><span>02</span>方向与选择题</li>
+      <li data-step="3"><span>03</span>自我介绍</li>
+      <li data-step="4"><span>04</span>简答题</li>
+      <li data-step="5"><span>05</span>评分与提交</li>
+    </ol>
+  </nav>
+
+  <!-- Step 1 -->
+  <section id="step1" class="step">
+    <div class="card">
+      <h2 id="project-title">项目介绍</h2>
+      <p class="lead" id="project-lead"></p>
+      <div id="project-intro" class="intro-body"></div>
+      <div class="row between actions">
+        <p class="hint">看完大概需要 2 分钟。后面 5 道题没有标准答案，按第一反应选。</p>
+        <button id="btn-start" class="btn primary" type="button">我已了解，开始填写</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Step 2 -->
+  <section id="step2" class="step hidden">
+    <div class="card">
+      <h2>想加入的方向</h2>
+      <p class="hint">只分四个方向；选完之后下面的题目会自动换成该方向的情景题。</p>
+      <div id="direction-cards" class="role-grid"></div>
+    </div>
+
+    <div class="card">
+      <h2>基本信息</h2>
+      <div class="grid">
+        <label class="field">姓名 / 昵称
+          <input id="cand-name" type="text" maxlength="24" placeholder="例如：小李" autocomplete="off" />
+        </label>
+        <label class="field">想加入的方向
+          <select id="cand-direction"></select>
+        </label>
+        <label class="field">联系方式（手机号 / 微信）<span class="req">必填</span>
+          <input id="cand-contact" type="text" maxlength="40" required placeholder="团队要靠它联系你" autocomplete="off" />
+        </label>
+        <label class="field">年级 / 相关经验
+          <select id="cand-grade">
+            <option value="大一">大一</option>
+            <option value="大二">大二</option>
+            <option value="大三">大三</option>
+            <option value="大四">大四</option>
+            <option value="研究生">研究生</option>
+          </select>
+        </label>
+        <label class="field">每周可投入
+          <select id="cand-hours">
+            <option value="4 小时以内">4 小时以内</option>
+            <option value="4–8 小时" selected>4–8 小时</option>
+            <option value="8–15 小时">8–15 小时</option>
+            <option value="15 小时以上">15 小时以上</option>
+          </select>
+        </label>
+      </div>
+      <label class="consent">
+        <input id="consent" type="checkbox" />
+        <span>我同意团队用我填写的信息进行本次招募联系；信息只用于组队，不会公开，可随时要求删除。</span>
+      </label>
+    </div>
+
+    <div id="mcq-notice" class="notice hidden" role="alert"></div>
+    <div id="mcq-list"></div>
+
+    <div class="row end actions">
+      <button id="btn-to-step3" class="btn primary" type="button">下一步：自我介绍</button>
+    </div>
+  </section>
+
+  <!-- Step 3 -->
+  <section id="step3" class="step hidden">
+    <div class="card">
+      <h2>自我介绍</h2>
+      <p class="hint">不限结构，写能让团队了解你的内容：做过什么、擅长什么、为什么想加入。有数字和细节最好。</p>
+      <textarea id="intro-text" rows="11" maxlength="3000" placeholder="例如：大二做过校园二手交易账号，3 个月做到 1200 粉，单月成交 40 单……"></textarea>
+      <div class="row between">
+        <span id="intro-count" class="hint">0 / 3000</span>
+        <button id="btn-to-step4" class="btn primary" type="button">下一步：简答题</button>
+      </div>
+      <div class="rubric" id="intro-rubric"></div>
+    </div>
+  </section>
+
+  <!-- Step 4 -->
+  <section id="step4" class="step hidden">
+    <div class="card">
+      <h2>简答题</h2>
+      <p class="hint">两道题，简答占总分 <b>60%</b>：创意 30 分、创业 30 分。不用写长，但要有具体假设、数字或做过的动作——空话和套话拿不到分。</p>
+      <div id="short-list"></div>
+      <div class="row end">
+        <button id="btn-to-step5" class="btn primary" type="button">下一步：确认并提交</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Step 5 -->
+  <section id="step5" class="step hidden">
+    <div class="big-warning" id="send-warning">⚠ 还差最后一步：点「提交并发送」，这份报名数据会自动发到团队邮箱。</div>
+
+    <div class="card">
+      <h2>评估参考</h2>
+      <div id="report"></div>
+    </div>
+
+    <div class="card">
+      <h2>提交给团队</h2>
+      <p class="hint">
+        点下面按钮提交，这份报名数据会直接发送到 <b id="team-mail"></b>。提交前可以展开预览再检查一遍。
+      </p>
+      <div class="row wrap">
+        <button id="btn-submit" class="btn primary" type="button">提交并发送</button>
+        <button id="btn-copy" class="btn" type="button">复制内容</button>
+        <button id="btn-download" class="btn ghost" type="button">下载 .txt</button>
+      </div>
+      <p id="send-status" class="hint" role="status"></p>
+
+      <details class="preview">
+        <summary>预览要发送的内容</summary>
+        <pre id="preview-text"></pre>
+      </details>
+
+      <div class="row between">
+        <button id="btn-clear" class="btn ghost small" type="button">清除本地草稿</button>
+        <button id="btn-restart" class="btn ghost small" type="button">重新填写</button>
+      </div>
+    </div>
+  </section>
+
+  <p class="disclaimer" id="disclaimer"></p>
+</main>
+
+<footer class="footer">
+  <span id="footer-school"></span>
+  <span class="dot">·</span>
+  <span>三创赛 · 智播兴农团队</span>
+</footer>
+
+<div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+
+<script src="assets/config.js?v=1"></script>
+<script src="assets/scoring.js?v=1"></script>
+<script src="assets/app.js?v=1"></script>
+</body>
+</html>

@@ -1,0 +1,433 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-11-19",
+  "competition": {
+    "name": "全国大学生电子商务“创新、创意及创业”挑战赛（三创赛）",
+    "edition": "第十七届（2026—2027 赛季）",
+    "track": "常规赛 · 乡村振兴主题",
+    "stage": "校赛准备期（校赛 2026-03 开始，报名以官网为准）"
+  },
+  "team": {
+    "name": "智播兴农",
+    "school": "西华大学",
+    "tagline": "AI 驱动的农产品直播电商服务平台",
+    "hiringNote": "这是西华大学的三创赛参赛团队，不是公司。这一轮找一起把项目做成的人：方向、分工、投入时间面谈后一起定。"
+  },
+  "mailTo": {
+    "primary": "2360618616@qq.com",
+    "cc": []
+  },
+  "dimensions": {
+    "insight": {
+      "label": "洞察创新",
+      "competition": "创新 25 分",
+      "desc": "能不能看到问题的实质，提出有差异的做法"
+    },
+    "business": {
+      "label": "商业落地",
+      "competition": "创意 25 分",
+      "desc": "算不算得清成本收益，方案能不能真跑起来"
+    },
+    "execution": {
+      "label": "执行协作",
+      "competition": "创业 25 分",
+      "desc": "推进节奏、协调资源、把事做完"
+    },
+    "delivery": {
+      "label": "表达交付",
+      "competition": "演讲 15 + 文案 10",
+      "desc": "讲得清、写得实、材料经得起追问"
+    }
+  },
+  "weights": {
+    "mcq": 40,
+    "short": 60
+  },
+  "dimensionWeights": {
+    "insight": 25,
+    "business": 25,
+    "execution": 25,
+    "delivery": 25
+  },
+  "scoringNote": "总分 = 选择题 40% + 简答题 60%；简答题只打两个维度：创意 30 分、创业 30 分。创新与表达交付由选择题部分体现。",
+  "projectIntro": {
+    "title": "项目介绍：智播兴农",
+    "lead": "让“不会播、不敢播”的县域农户，也能把地里的东西卖出去。",
+    "sections": [
+      {
+        "h": "一、我们解决什么问题",
+        "p": [
+          "农产品上行卡在三件事上：不会播——缺选品定价、话术脚本、场控投流的人；不敢播——代播机构收高额前置服务费，小农户试不起；卖不好——农产品非标、售后多、冷链弱，直播常常“一次卖爆、二次卖不动”。",
+          "现有方案要么只给培训不给交付，要么服务成熟品牌、不下沉县域。中间那层“懂农产品、低成本、能落地”的服务主体，目前是缺的。"
+        ]
+      },
+      {
+        "h": "二、我们的方案",
+        "p": [
+          "三层架构：AI 工具层（选品定价助手、直播话术生成器、短视频素材工厂）→ 运营服务层（高校助农直播队驻村陪跑、数字人补闲时场、小预算投流代运营）→ 供应链协同层（分级品控清单、云仓冷链对接、售后与赔付模板）。",
+          "一句话：用 AI 把服务成本压下来，用县域服务站和高校直播队把交付落到地里。"
+        ]
+      },
+      {
+        "h": "三、创新点（按三创赛口径罗列）",
+        "p": [
+          "新技术：农产品垂直话术与内容生成，比通用大模型更懂农产品卖点与平台合规红线。",
+          "新模式：“零基础服务费 + 效果分成”，把农户的试错成本降到最低，也让服务方收益和农户收益绑在一起。",
+          "新服务：“县域服务站 × 高校助农直播队”的本地服务网络，AI 保证标准化，服务站保证响应速度。"
+        ]
+      },
+      {
+        "h": "四、市场与依据",
+        "p": [
+          "据商务部公开数据，2023 年全国农村网络零售额 2.49 万亿元、农产品网络零售额 5870.3 亿元；直播已是农产品上行增长最快的渠道之一。",
+          "政策侧，“数商兴农”连续多年写进中央一号文件，直播电商被纳入各地农产品促消费的政策工具箱。"
+        ]
+      },
+      {
+        "h": "五、我们现在在哪一步",
+        "p": [
+          "方案验证 + 原型开发阶段：计划书已完成，AI 工具原型与首个试点县的合作在推进，目前还没有对外宣称的经营数据——这也是急着找队友的原因。",
+          "三创赛常规赛（乡村振兴主题）校赛 2026 年 3 月开始，接下来四个月要完成原型、试点和参赛材料。"
+        ]
+      },
+      {
+        "h": "六、加入能得到什么",
+        "p": [
+          "一次完整的电商实操：选品、话术、直播、履约、复盘，不是只写 PPT。",
+          "一个能写进简历的三创赛项目，以及论文、软著、专利的署名机会（按实际贡献）。",
+          "如果你只想挂名，这个项目不适合你。"
+        ]
+      }
+    ]
+  },
+  "directions": [
+    {
+      "id": "content",
+      "name": "内容与直播",
+      "mission": "把一个农产品讲清楚：脚本、镜头、场控、复盘，让直播间有人留、有人买。",
+      "mustHave": [
+        "能写能拍能剪，或愿意练出来",
+        "敢出镜，表达稳定",
+        "看得懂后台数据并据此改内容"
+      ],
+      "roleQuestions": [
+        {
+          "id": "c1",
+          "tag": "内容 · 直播突发",
+          "title": "直播中有人刷屏问“你们的桃子打了膨大剂吧”，评论区开始跟风，你怎么回？",
+          "options": [
+            {
+              "text": "直接说“没有”，继续讲品",
+              "scores": { "insight": 2, "business": 2, "execution": 3, "delivery": 2 }
+            },
+            {
+              "text": "拿检测报告和基地实拍，讲清品控流程与坏果赔付，再把镜头切给正在分拣的合作社",
+              "scores": { "insight": 5, "business": 4, "execution": 4, "delivery": 5 }
+            },
+            {
+              "text": "不理，让助理把人踢了、把评论关了",
+              "scores": { "insight": 1, "business": 2, "execution": 3, "delivery": 1 }
+            },
+            {
+              "text": "坦白说“这个我不能乱讲”，约下播后带农技老师专门答一次",
+              "scores": { "insight": 3, "business": 3, "execution": 4, "delivery": 4 }
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "tag": "内容 · 选题",
+          "title": "同样卖笋干，你的第一支短视频拍什么？",
+          "options": [
+            {
+              "text": "产品特写加价格，三十秒讲完卖点",
+              "scores": { "insight": 2, "business": 2, "execution": 3, "delivery": 3 }
+            },
+            {
+              "text": "跟农户上山挖笋、晒场翻晒，把“为什么比别家贵”讲成成本账",
+              "scores": { "insight": 5, "business": 4, "execution": 3, "delivery": 5 }
+            },
+            {
+              "text": "拍团队下乡花絮，突出助农情怀",
+              "scores": { "insight": 3, "business": 2, "execution": 3, "delivery": 4 }
+            },
+            {
+              "text": "找一条爆款模板，换词照着拍",
+              "scores": { "insight": 2, "business": 2, "execution": 4, "delivery": 3 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "产品与技术",
+      "mission": "把 AI 工具箱做成农户真的会用的东西：话术能直接念，选品能直接播，数据看得懂。",
+      "mustHave": [
+        "Python / 前端 / 小程序任一方向能动手",
+        "了解或愿意学 RAG、提示词工程",
+        "能把想法做出可演示的原型"
+      ],
+      "roleQuestions": [
+        {
+          "id": "t1",
+          "tag": "技术 · 需求取舍",
+          "title": "农户说“你们的小程序太复杂，我只会用微信发朋友圈”，离上线还有两周，你怎么办？",
+          "options": [
+            {
+              "text": "按原方案上线，再组织一次培训把农户教会",
+              "scores": { "insight": 2, "business": 3, "execution": 3, "delivery": 3 }
+            },
+            {
+              "text": "砍掉八成功能，只留“拍照上传—自动出话术—一键复制”三步，其余挪到后台",
+              "scores": { "insight": 5, "business": 5, "execution": 4, "delivery": 4 }
+            },
+            {
+              "text": "做两个版本：农户用极简版，团队自己用完整版",
+              "scores": { "insight": 3, "business": 3, "execution": 4, "delivery": 4 }
+            },
+            {
+              "text": "干脆放弃小程序，让农户在微信群里接龙下单",
+              "scores": { "insight": 3, "business": 4, "execution": 3, "delivery": 2 }
+            }
+          ]
+        },
+        {
+          "id": "t2",
+          "tag": "技术 · 效果验证",
+          "title": "要证明“我们的 AI 话术比通用大模型好用”，你怎么拿出证据？",
+          "options": [
+            {
+              "text": "自己读几段，觉得确实更像人话就够了",
+              "scores": { "insight": 1, "business": 1, "execution": 2, "delivery": 2 }
+            },
+            {
+              "text": "找 10 位农户盲评，按“能不能照着播出来”打分，记录两组的差异与失败案例",
+              "scores": { "insight": 5, "business": 4, "execution": 4, "delivery": 4 }
+            },
+            {
+              "text": "跑公开评测集，用学术指标说明提升",
+              "scores": { "insight": 3, "business": 2, "execution": 3, "delivery": 5 }
+            },
+            {
+              "text": "先用现成工具顶一阵，对比以后再说",
+              "scores": { "insight": 2, "business": 3, "execution": 3, "delivery": 2 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supply",
+      "name": "供应链与选品",
+      "mission": "选得对、发得稳、退得起：品控清单、仓储冷链、售后规则，一条链上都不掉链子。",
+      "mustHave": [
+        "愿意跑合作社、仓库和物流点",
+        "会做清单、流程和验收标准",
+        "对生鲜损耗和售后有基本概念"
+      ],
+      "roleQuestions": [
+        {
+          "id": "s1",
+          "tag": "供应链 · 售后危机",
+          "title": "第一批货发出去，5% 的客户反馈“笋干发霉”，合作社说“是运输问题”，你怎么处理？",
+          "options": [
+            {
+              "text": "先全额赔付压住差评，别在起步阶段丢口碑",
+              "scores": { "insight": 3, "business": 3, "execution": 4, "delivery": 3 }
+            },
+            {
+              "text": "先拿退货样本复盘含水率、包装和仓储湿度，定出赔付标准，把整改条款写进下一批合同",
+              "scores": { "insight": 5, "business": 5, "execution": 4, "delivery": 5 }
+            },
+            {
+              "text": "让客户直接申请平台退货，按规则走",
+              "scores": { "insight": 2, "business": 2, "execution": 3, "delivery": 2 }
+            },
+            {
+              "text": "这家合作社不靠谱，换一家供应商",
+              "scores": { "insight": 3, "business": 3, "execution": 3, "delivery": 2 }
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "tag": "供应链 · 选品取舍",
+          "title": "选品会上两个候选：本地滞销的鲜桃（易腐、单价低、故事好）和已经卖得动的笋干（竞争激烈、复购稳）。你先主推哪个？",
+          "options": [
+            {
+              "text": "鲜桃，助农故事最打动人，卖出去就是成绩",
+              "scores": { "insight": 3, "business": 4, "execution": 4, "delivery": 4 }
+            },
+            {
+              "text": "笋干，先把数据和复购做出来，比赛要的是证据",
+              "scores": { "insight": 3, "business": 4, "execution": 3, "delivery": 3 }
+            },
+            {
+              "text": "各拿小批量同时测，按损耗率、退货率、复购率定主推，一周后review",
+              "scores": { "insight": 5, "business": 5, "execution": 4, "delivery": 4 }
+            },
+            {
+              "text": "两个都上，品类越多机会越大",
+              "scores": { "insight": 2, "business": 2, "execution": 3, "delivery": 2 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biz",
+      "name": "商务与申报",
+      "mission": "把账算清、把材料写硬、把答辩讲明白：让评委相信这事真能跑。",
+      "mustHave": [
+        "写得清、算得准，能扛报告书",
+        "懂财务测算与可行性分析",
+        "敢在评委面前答问，不怕被追问"
+      ],
+      "roleQuestions": [
+        {
+          "id": "b1",
+          "tag": "商务 · 谈判",
+          "title": "合作社开口要“先给 5 万保底，再谈分成”，团队拿不出这笔钱，你怎么谈？",
+          "options": [
+            {
+              "text": "先答应下来签合同，钱后面再想办法",
+              "scores": { "insight": 2, "business": 3, "execution": 4, "delivery": 3 }
+            },
+            {
+              "text": "改成“按场结算 + 达标奖励”，先做两场试播用数据换信任，把保底换算成可验证的承诺",
+              "scores": { "insight": 5, "business": 5, "execution": 4, "delivery": 4 }
+            },
+            {
+              "text": "谈不拢就换一家合作社",
+              "scores": { "insight": 3, "business": 3, "execution": 3, "delivery": 2 }
+            },
+            {
+              "text": "请指导老师或学校出面背书，降低对方顾虑",
+              "scores": { "insight": 3, "business": 3, "execution": 4, "delivery": 3 }
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "tag": "商务 · 答辩现场",
+          "title": "评委问“创业 25 分的佐证材料在哪”，你手里只有 3 场试播和 1 份协议，怎么答？",
+          "options": [
+            {
+              "text": "说明项目还早，接下来会补数据",
+              "scores": { "insight": 2, "business": 3, "execution": 2, "delivery": 2 }
+            },
+            {
+              "text": "把 3 场试播的 GMV、退货率、复购和协议逐条摊开，承认样本小，给出 30 天验证计划与目标值",
+              "scores": { "insight": 5, "business": 5, "execution": 4, "delivery": 5 }
+            },
+            {
+              "text": "强调团队热情、专业背景和学校支持",
+              "scores": { "insight": 3, "business": 3, "execution": 3, "delivery": 3 }
+            },
+            {
+              "text": "把话题转到市场规模和政策红利上",
+              "scores": { "insight": 2, "business": 3, "execution": 2, "delivery": 2 }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generalQuestions": [
+    {
+      "id": "g1",
+      "tag": "通用 · 优先级判断",
+      "title": "校赛前两周，直播脚本还没定稿、供应链协议还没签，你只有 40 个小时，先做哪件？",
+      "options": [
+        {
+          "text": "先写脚本，比赛看的是演示效果",
+          "scores": { "insight": 2, "business": 2, "execution": 3, "delivery": 4 }
+        },
+        {
+          "text": "先去签协议，把真实 GMV 跑出来，脚本用现成的",
+          "scores": { "insight": 4, "business": 5, "execution": 5, "delivery": 2 }
+        },
+        {
+          "text": "两条线并行，把活拆给队友，每天对一次进度",
+          "scores": { "insight": 4, "business": 4, "execution": 5, "delivery": 4 }
+        },
+        {
+          "text": "先做一版漂亮的 demo 视频给评委看",
+          "scores": { "insight": 3, "business": 2, "execution": 3, "delivery": 5 }
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "tag": "通用 · 协作与反馈",
+      "title": "队友负责的章节被指导老师批“没有数据”，他有点泄气，接下来你做什么？",
+      "options": [
+        {
+          "text": "帮他把访谈记录整理成表，一起把证据补上",
+          "scores": { "insight": 5, "business": 4, "execution": 5, "delivery": 4 }
+        },
+        {
+          "text": "让他自己重写，这是他的部分",
+          "scores": { "insight": 3, "business": 3, "execution": 2, "delivery": 2 }
+        },
+        {
+          "text": "干脆替他写，先把稿子交上去",
+          "scores": { "insight": 3, "business": 3, "execution": 4, "delivery": 2 }
+        },
+        {
+          "text": "再找老师要一次具体意见，拿到修改清单后分工",
+          "scores": { "insight": 4, "business": 4, "execution": 4, "delivery": 5 }
+        }
+      ]
+    }
+  ],
+  "projectQuestion": {
+    "id": "p1",
+    "tag": "项目 · 验证设计",
+    "title": "要在 30 天内验证“零服务费 + 效果分成”跑得通，你最先做什么？",
+    "options": [
+      {
+        "text": "找 1 家合作社签一个月试播协议，写清分成比例、结算口径和退出条件",
+        "scores": { "insight": 5, "business": 5, "execution": 4, "delivery": 3 }
+      },
+      {
+        "text": "先连开 10 场直播，看实际能卖多少",
+        "scores": { "insight": 3, "business": 2, "execution": 4, "delivery": 2 }
+      },
+      {
+        "text": "先做问卷，问农户愿不愿意接受分成模式",
+        "scores": { "insight": 3, "business": 2, "execution": 2, "delivery": 3 }
+      },
+      {
+        "text": "先把小程序做出来，工具齐了再谈合作",
+        "scores": { "insight": 2, "business": 3, "execution": 3, "delivery": 2 }
+      }
+    ]
+  },
+  "shortQuestions": [
+    {
+      "id": "s1",
+      "dimension": "creative",
+      "dimensionLabel": "创意",
+      "title": "如果只能给智播兴农挑一个「30 天内能验完」的切口，你会先验什么？写清怎么验、看哪个数、不成立怎么办。",
+      "hint": "1–3 句即可：验证哪个假设 → 找谁测多少样本 → 看什么指标（场次/GMV/客单/复购/成本）→ 结果不好就怎么办",
+      "placeholder": "例如：先找 1 家合作社、2 个品类，试播 4 场，看单场订单与退货率；如果 4 场订单都低于 8 单，就退回到只做选品与话术工具，不再承诺代运营……"
+    },
+    {
+      "id": "s2",
+      "dimension": "startup",
+      "dimensionLabel": "创业",
+      "title": "说一件你亲手做成过的小事（卖过东西 / 拉过合作 / 做过账号 / 办过活动），写清你做了什么、结果是多少。",
+      "hint": "写明：你的角色、具体动作、可核验的结果（数字/时间/对象）、踩过什么坑、后来怎么改的",
+      "placeholder": "例如：大二负责学院二手市集，我谈下 3 家摊主、定了 5% 抽成，两天成交 61 单、流水 4300 元；第一场因为没标价被砍价，第二场改成明码标价 + 满减……"
+    }
+  ],
+  "introRubric": [
+    { "key": "structure", "label": "表达清楚", "desc": "事情说得明白，读一遍就知道你做过什么" },
+    { "key": "specificity", "label": "具体可验证", "desc": "有数字、有细节、有能被追问的事实" },
+    { "key": "selfAwareness", "label": "自我认知", "desc": "说得清优势、短板和改的动作" },
+    { "key": "roleFit", "label": "方向契合", "desc": "经历和内容直播 / 产品技术 / 供应链 / 商务申报之一对得上" }
+  ],
+  "disclaimer": "本页用于三创赛参赛团队组建，得分由固定规则计算，仅作初筛参考，是否加入与分工以面谈为准。你填写的信息只用于本次招募，不会公开，可随时要求删除。"
+}
